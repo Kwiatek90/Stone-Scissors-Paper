@@ -135,7 +135,7 @@ def play(board):
         while True:
                 player = 0
                 trials = 0
-                print("Hello, you're playling the stone, scissor, paper game!")
+                print("Hello, you're playling the Tic, Tac, Toe game!")
                 time.sleep(1)
                 choose_game = input("Do you want to play with 'computer'( Enter 1) or 1 vs 1(Enter 2)?")
                 if choose_game == "1" or choose_game == "2":
