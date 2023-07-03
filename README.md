@@ -1,4 +1,4 @@
-#Tic Tac Toe
+# Tic Tac Toe
 
 ## Contents
 * [Introduction](#introduction)
@@ -20,13 +20,13 @@ You only need the appropriate version of python and its libraries,  running in y
 ## Applied technologies and libraries
 
 * Environment
-Pyhton 3.10.7
-Visual Studio Code 1.79
+    * Pyhton 3.10.7
+    * Visual Studio Code 1.79
 
 * Libraries
-random
-time
-os
+    * random
+    * time
+    * os
 
 ## License
 
