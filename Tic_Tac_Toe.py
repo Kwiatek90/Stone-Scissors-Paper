@@ -108,27 +108,27 @@ def play_vs_game(player,board,trials):
 
 def play_with_computer_game(player, board, trials):
         while True:
-                        if trials < 10:
-                                if player == 0:
-                                        line, column = enter_XO_computer(board)
-                                        board[line][column] = "X"
-                                        os.system('cls')
-                                        show_board(board)
-                                        result_option(board, player)
-                                        player = 1
-                                        trials += 1
-                                        
-                                elif player == 1:
-                                        line, column = enter_XO(board, player)
-                                        board[line][column] = "O"
-                                        os.system('cls')
-                                        show_board(board)
-                                        result_option(board, player)
-                                        player = 0
-                                        trials += 1
-                                        
-                        else:
-                                print("Draw") 
+                if trials < 10:
+                        if player == 0:
+                                line, column = enter_XO_computer(board)
+                                board[line][column] = "X"
+                                os.system('cls')
+                                show_board(board)
+                                result_option(board, player)
+                                player = 1
+                                trials += 1
+                                
+                        elif player == 1:
+                                line, column = enter_XO(board, player)
+                                board[line][column] = "O"
+                                os.system('cls')
+                                show_board(board)
+                                result_option(board, player)
+                                player = 0
+                                trials += 1
+                                
+                else:
+                        print("Draw") 
 #main function
 def play(board):
         os.system('cls')
